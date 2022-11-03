@@ -102,4 +102,8 @@ const team = {
 
 team.addPlayer('James', 'Neal', 21);
 console.log(team.players);
+
+team.addGame();
+
+
 console.log('CONNECTED');
