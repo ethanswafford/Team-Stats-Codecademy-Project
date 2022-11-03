@@ -18,18 +18,22 @@
 // Let’s do the same for our _games array. Populate the empty array with three games.
 // Each game should be an object containing three properties: opponent, teamPoints, opponentPoints
 
-// Create a getter method called players to retrieve the _players property. 
+// Create a getter method called players to retrieve the _players property.
 // Inside the getter method, return the _players property.
-// For the scope of this project, we won’ t need to create setter methods, 
+// For the scope of this project, we won’ t need to create setter methods,
 // because we don’ t want anyone to change the data saved to the properties.
 
-// Create another getter method called games to retrieve the _games property. 
+// Create another getter method called games to retrieve the _games property.
 // Inside the getter method, return the _games property.
 
-// We want to add a new player to our team. Add a .addPlayer() method to the team object. 
+// We want to add a new player to our team. Add a .addPlayer() method to the team object.
 // This method should take in three parameters: newFirstName, newLastName, and newAge.
 // Inside the method, create a player object by setting the three parameters to be the values
 // for the object’ s three properties: firstName, lastName, age.Finally, add the player object to the team‘ s _players array.
+
+// Below the team object, let’s try out our new .addPlayer() method to add a new player: Bugs Bunny, age 76.
+// Log the team‘ s _players property to check that our new player was added.
+
 
 
 
