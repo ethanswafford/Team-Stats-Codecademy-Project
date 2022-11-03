@@ -103,7 +103,7 @@ const team = {
 team.addPlayer('James', 'Neal', 21);
 console.log(team.players);
 
-team.addGame();
+team.addGame('Redwings', 4, 2);;
 
 
 console.log('CONNECTED');
