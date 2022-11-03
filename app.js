@@ -80,8 +80,12 @@ const team = {
             age: newAge
         };
         this._players.push(player);
+    },
+    addGame(newOpponent, newTeamPoints, newOpponentPoints) {
+        let game = {
+
+        }
     }
 }
-
 
 console.log('CONNECTED');
