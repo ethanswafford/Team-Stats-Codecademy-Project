@@ -87,9 +87,14 @@ const team = {
     },
     addGame(newOpponent, newTeamPoints, newOpponentPoints) {
         let game = {
-
-        }
+            opponent: newOpponent,
+            teamPoints: newTeamPoints,
+            opponentPoints: newOpponentPoints
+        };
+        this.games.push(game);
     }
+
 }
+
 
 console.log('CONNECTED');
