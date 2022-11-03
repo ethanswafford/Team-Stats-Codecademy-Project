@@ -79,7 +79,7 @@ const team = {
             lastName: newLastName,
             age: newAge
         };
-        this.player
+        this._players.push(player);
     }
 }
 
