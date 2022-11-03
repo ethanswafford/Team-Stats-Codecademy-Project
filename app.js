@@ -26,6 +26,10 @@
 // Create another getter method called games to retrieve the _games property. 
 // Inside the getter method, return the _games property.
 
+// We want to add a new player to our team. Add a .addPlayer() method to the team object. 
+// This method should take in three parameters: newFirstName, newLastName, and newAge.
+// Inside the method, create a player object by setting the three parameters to be the values
+// for the object’ s three properties: firstName, lastName, age.Finally, add the player object to the team‘ s _players array.
 
 
 
@@ -68,9 +72,16 @@ const team = {
     },
     get games() {
         return this._games;
+    },
+    addPlayer(newFirstName, newLastName, newAge) {
+        let player = {
+            firstName: newFirstName,
+            lastName: newLastName,
+            age: newAge
+        };
+        this.player
     }
 }
-
 
 
 console.log('CONNECTED');
